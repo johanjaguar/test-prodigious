@@ -1,5 +1,13 @@
 # test-prodigious
 Test Page for Prodigious
+
+
+#Changelog
+  
+Include Gulp.js task
+get intro to angular
+
+
 #Important url
 https://app.pluralsight.com/player?author=scott-allen&name=angularjs-get-started-m1-introduction&mode=live&clip=2&course=angularjs-get-started
 

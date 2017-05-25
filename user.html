@@ -1,0 +1,34 @@
+<div>
+  <h2>Name : {{user.name}}</h2>
+  <p>Location: {{user.location}}</p>
+  <p>Blog : {{user.blog}}</p>
+  <p>Bio: {{user.bio}}</p>
+
+  {{error}}
+  <figure>
+    <img src = "{{user.avatar_url}}" alt = "{{user.login}}" />
+  </figure>
+
+  <select ng-model="repoSortOrder" class="star-order" name="">
+    <option value="+name">Name</option>
+    <option value="-stargazers_count">Stars</option>
+    <option value="+language">Language</option>
+  </select>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>nombres</th>
+      <th>estrellas</th>
+      <th>lenguaje</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="repo in repos | orderBy : repoSortOrder ">
+      <td>{{repo.name}}</td>
+      <td>{{repo.stargazers_count}}</td>
+      <td>{{repo.language}}</td>
+    </tr>
+  </tbody>
+</table>
