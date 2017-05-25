@@ -1,0 +1,41 @@
+{
+  "name": "test_prodigious",
+  "version": "1.0.0",
+  "description": "It is a test page build for the company Prodigious, like a development exercise to show a lot of differents skills and task for apply for the Senior Developer Front-end job.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanjaguar/test-prodigious.git"
+  },
+  "keywords": [
+    "test",
+    "angular",
+    "gulp",
+    "javascript",
+    "haml",
+    "sass",
+    "css"
+  ],
+  "author": "Johan Vargas Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanjaguar/test-prodigious/issues"
+  },
+  "homepage": "https://github.com/johanjaguar/test-prodigious#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-haml": "^0.1.6",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "imagemin-pngquant": "^5.0.0",
+    "require-dir": "^0.3.1"
+  }
+}

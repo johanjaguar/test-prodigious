@@ -1,0 +1,11 @@
+/* line 1, sources/scss/fonts.scss */
+p {
+  color: blue;
+  font-family: monospace;
+}
+
+/* line 5, sources/scss/fonts.scss */
+h1 {
+  color: brown;
+  font-family: sans-serif;
+}

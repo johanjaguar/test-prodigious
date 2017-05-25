@@ -16,7 +16,6 @@ The results should work in all major standard browsers and should incorporate pr
 
 Feel free to use any external framework, libraries of your choice.
 
-
 Step 1: Read
 
 1. Read through all the instructions before start!
