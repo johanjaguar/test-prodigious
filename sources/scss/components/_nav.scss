@@ -2,11 +2,11 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  @at-root #{&}__container {
+  @at-root &__container {
     margin: 0 auto;
     text-align: center;
   }
-  @at-root #{&}__list-item {
+  @at-root &__list-item {
     display: inline;
     padding: 0 10px;
     a{
@@ -16,11 +16,11 @@
   }
 
   //navbar attributes
-  @at-root #{&}--right {
+  @at-root &--right {
     text-align: right;
     margin: 25px;
   }
-  @at-root #{&}--list-active {
+  @at-root &--list-active {
     a{
       color: $greyc;
     }

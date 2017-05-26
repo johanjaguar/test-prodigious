@@ -1,10 +1,10 @@
 .widget1{
   width: 370px;
   height: 393px;
-  overflow: hidden;
+  overflow-y: auto;
   margin: 0 auto;
 
-  @at-root #{&}__image-header {
+  @at-root &__image-header {
     height: 205px;
     float: none;
     width: 100%;
@@ -15,14 +15,14 @@
     }
   }
 
-  @at-root #{&}__profile-box {
+  @at-root &__profile-box {
     background: $white;
     float: none;
     height: 140px;
     width: 100%;
   }
 
-  @at-root #{&}__image-profile {
+  @at-root &__image-profile {
     float: left;
     text-align: center;
     width: 100px;
@@ -36,7 +36,7 @@
     }
   }
 
-  @at-root #{&}__profile-info {
+  @at-root &__profile-info {
     box-sizing: border-box;
     float: left;
     height: 100%;
@@ -44,7 +44,7 @@
     width: 270px;
   }
 
-  @at-root #{&}__profile-name{
+  @at-root &__profile-name{
     color: $grey5c;
     @include rem(26);
     padding-bottom: 10px;
@@ -53,7 +53,7 @@
     text-transform: none;
   }
 
-  @at-root #{&}__profile-description{
+  @at-root &__profile-description{
     color: $grey5c;
     @include rem(14);
     text-align: left;
@@ -62,7 +62,7 @@
     line-height: 1.4;
   }
 
-  @at-root #{&}__icons{
+  @at-root &__icons{
     background: $white;
     text-align: center;
     li{
@@ -75,7 +75,7 @@
     }
   }
 
-  @at-root #{&}__icon-text{
+  @at-root &__icon-text{
     color: $grey5c;
     @include rem(18);
     text-align: center;
@@ -91,18 +91,84 @@
       width: 17px;
       height: 34px;
       color: transparent;
+      margin-right: 10px;
     }
   }
 
-  @at-root #{&}__li-icon-eye{
+  @at-root &__li-icon-eye {
     border-right: 1px solid $white;
     span:before{
-      background-position: -50px -50px;
+      background-position: -51px -50px;
+    }
+    &:hover{
+      span{
+        color: $orangee9;
+        &:before{
+          background-position: -76px -50px;
+        }
+      }
     }
   }
 
-  @at-root #{&}__li-icon-comment{
-    border-right: 1px solid $white;
+  @at-root &__li-icon-comment {
+    span:before{
+      background-position: -51px -25px;
+    }
+    &:hover{
+      span{
+        color: $orangee9;
+        &:before{
+          background-position: -76px -25px;
+        }
+      }
+    }
   }
 
+  @at-root &__li-icon-likes {
+    border-right: 1px solid $white;
+    &:hover{
+      span{
+        color: $orangee9;
+        &:before{
+          background-position: -75px 0;
+        }
+      }
+    }
+  }
+
+
+  @at-root &__comment-item{
+    background: $white;
+    padding: 20px;
+    border-bottom: 1px solid $greyc;
+    img{
+      float: left;
+      border-radius: 50%;
+      padding-right: 10px;
+    }
+    &:last-of-type{
+      border-bottom: none;
+    }
+
+  }
+  @at-root &__comment-info{
+    padding-top: 5px
+  }
+  @at-root &__comment-name{
+    color: $grey5c;
+    @include rem(16);
+    text-shadow: none;
+    font-family: $fte-openSans--semibold;
+  }
+  @at-root &__comment-time{
+    color: $grey5c;
+    @include rem(12);
+    text-shadow: none;
+  }
+    @at-root &__comment-text{
+      color: $grey5c;
+      @include rem(14);
+      text-shadow: none;
+      padding-top: 20px;
+    }
 }

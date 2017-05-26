@@ -17,24 +17,22 @@
 			<li class="widget1__li-icon-eye">
 				<span class="widget1__icon-text">{{stats.views}}</span>
 			</li>
-			<li id="btn-comment" class="widget1__li-icon-comment">
+			<li id="btn-comment" class="widget1__li-icon-comment" ng-click="showDiv = !showDiv">
 				<span class="widget1__icon-text">{{stats.comment}}</span>
 			</li>
-			<li class="widget1__icon-likes">
+			<li class="widget1__li-icon-likes">
 				<span class="widget1__icon-text">{{stats.likes}}</span>
 			</li>
 		</ul>
 	</div>
-	<div class="widget1__box-comments">
-		<div ng-repeat="comment in comments" class="item">
-			<div class="header">
-				<img src="{{comment.profileImage}}" alt="">
-				<div class="info">
-					<a class="name">{{comment.name}}</a>
-					<div class="time"><span>{{comment.time}} </span>ago</div>
-				</div>
+	<div class="widget1__box-comments" ng-show="showDiv">
+		<div ng-repeat="comment in comments" class="widget1__comment-item">
+			<img src="{{comment.profileImage}}" alt="">
+			<div class="widget1__comment-info">
+				<a class="widget1__comment-name">{{comment.name}}</a>
+				<div class="widget1__comment-time"><span>{{comment.time}} </span>ago</div>
 			</div>
-			<p class="text">{{comment.comment}}</p>
+			<p class="widget1__comment-text">{{comment.comment}}</p>
 		</div>
 	</div>
 </div>
