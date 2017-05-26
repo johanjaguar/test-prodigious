@@ -1,0 +1,108 @@
+.widget1{
+  width: 370px;
+  height: 393px;
+  overflow: hidden;
+  margin: 0 auto;
+
+  @at-root #{&}__image-header {
+    height: 205px;
+    float: none;
+    width: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 7px 7px 0 0;
+    }
+  }
+
+  @at-root #{&}__profile-box {
+    background: $white;
+    float: none;
+    height: 140px;
+    width: 100%;
+  }
+
+  @at-root #{&}__image-profile {
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    img{
+      border-radius: 50%;
+      padding: 7px;
+      border: 1px solid $greyd8;
+      margin: 20px 10px;
+      width: 70px;
+    }
+  }
+
+  @at-root #{&}__profile-info {
+    box-sizing: border-box;
+    float: left;
+    height: 100%;
+    padding: 20px;
+    width: 270px;
+  }
+
+  @at-root #{&}__profile-name{
+    color: $grey5c;
+    @include rem(26);
+    padding-bottom: 10px;
+    text-align: left;
+    text-shadow: none;
+    text-transform: none;
+  }
+
+  @at-root #{&}__profile-description{
+    color: $grey5c;
+    @include rem(14);
+    text-align: left;
+    text-shadow: none;
+    text-transform: none;
+    line-height: 1.4;
+  }
+
+  @at-root #{&}__icons{
+    background: $white;
+    text-align: center;
+    li{
+      display: inline-block;
+      width: 32.5%;
+      background: $greyf6;
+      margin: 0;
+      box-sizing: border-box;
+      padding: 10px
+    }
+  }
+
+  @at-root #{&}__icon-text{
+    color: $grey5c;
+    @include rem(18);
+    text-align: center;
+    text-shadow: none;
+    text-transform: none;
+    padding: 0 15px;
+    font-family: $fte-openSans--semibold;
+    @include rem(16);
+    cursor: pointer;
+    &:before{
+      content: "aa " ;
+      background: url(/build/images-op/sprites.png);
+      width: 17px;
+      height: 34px;
+      color: transparent;
+    }
+  }
+
+  @at-root #{&}__li-icon-eye{
+    border-right: 1px solid $white;
+    span:before{
+      background-position: -50px -50px;
+    }
+  }
+
+  @at-root #{&}__li-icon-comment{
+    border-right: 1px solid $white;
+  }
+
+}

@@ -1,18 +1,15 @@
-body{
-  h1{
-    color: purple;
-  }
-  h2{
-    color: lime;
-    background: whitesmoke;
-  }
-  p{
-    background: red;
-    color: blue;
-  }
-  article{
-    padding: 2em;
-    background: blue;
-    color: red;
-  }
-}
+//Generals Styles Rules
+@import 'common/reset';
+@import 'common/mixins';
+@import 'common/colors';
+@import 'common/fonts';
+@import 'common/generals--layout';
+@import 'common/generals--visual';
+
+
+//Specific Styles Rules
+@import 'components/header';
+@import 'components/nav';
+@import 'components/main';
+@import 'components/widget2';
+@import 'components/widget3';

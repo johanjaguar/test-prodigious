@@ -1,0 +1,24 @@
+//calculate REM Mixin
+$browser-context: 16; // Default
+@function calulateRem($pixels, $context: $browser-context) {
+     @return #{$pixels/$context}rem
+}
+@mixin rem($size) {
+    font-size: $size+px; //Fallback in px
+    font-size: calulateRem($size);
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fontface( $font-name ){
+  @font-face {
+    font-family: $font-name;
+    $url: '/fonts/' + $font-name + '.';
+    src: url( $url + 'eot' );
+    src: url( $url + 'eot?#iefix' ) format( 'embedded-opentype' ),
+         url( $url + 'woff' ) format( 'woff' ),
+         url( $url + 'ttf') format( 'truetype' ),
+         url( $url + 'svg#' + $font-name ) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

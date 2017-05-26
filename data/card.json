@@ -1,0 +1,61 @@
+{
+	"profile":{
+		"headerImage":"/build/images-op/widget1-bg.jpg",
+		"profileImage":"/build/images-op/widget1-profile.jpg",
+		"name":"John Raymons",
+		"description":"Your talent amazes! This is awesome. Excited to see the final product."
+	},
+	"stats":{
+		"views":172,
+		"comment":30,
+		"likes":210
+	},
+	"comments":[
+		{
+			"profileImage":"/build/images-op/people1.jpeg",
+			"name":"Alexa Abdalla",
+			"time":"20 minuts ago",
+			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
+		},
+		{
+			"profileImage":"/build/images-op/people2.jpg",
+			"name":"Andres Vargas",
+			"time":"20 minuts ago",
+			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
+		}
+	],
+	"content":{
+		"title":"Data Transfer",
+		"imageDiagram":"/build/images-op/diagram1.png",
+		"dataFiles":"2,435",
+		"weightFiles":"47",
+		"audio":55,
+		"video":23,
+		"photo":17
+	},
+	"navs":[
+		{
+			"iconImage":"/build/images-op/icon1.png",
+			"name":"upload files"
+		},
+		{
+			"iconImage":"images/misc/icon2.png",
+			"name":"share link"
+		},
+		{
+			"iconImage":"images/misc/icon3.png",
+			"name":"back up"
+		}
+	],
+	"profileUser":{
+		"profileImage":"/build/images-op/widget1-profile.jpg",
+		"name":"Courtney Timmons",
+		"followers":15.323
+	},
+	"navsUser":{
+		"edit":"Edit user",
+		"sta":"Web statistics",
+		"up":"Upload settings",
+		"events":"Events"
+	}
+}

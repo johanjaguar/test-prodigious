@@ -1,0 +1,8 @@
+@include fontface('OpenSans-Regular');
+$fte-openSans--regular: 'OpenSans-Regular' , sans-serif;
+
+@include fontface('OpenSans-Bold');
+$fte-openSans--bold: 'OpenSans-Bold' , sans-serif;
+
+@include fontface('OpenSans-Semibold');
+$fte-openSans--semibold: 'OpenSans-Semibold' , sans-serif;

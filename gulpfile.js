@@ -10,7 +10,7 @@ gulp.task( 'default', ['browser-sync'], function(){
 
 	gulp.watch('sources/scss/**/*.scss', ['sass','cssmin']);
 	gulp.watch('sources/haml/**/*.haml', ['haml']);
-	gulp.watch('sources/javascript/**/*.js', ['scripts']);
+	//gulp.watch('sources/javascript/**/*.js', ['scripts']);
 	gulp.watch([
 		'sources/images/**/*.gif', 'sources/images/**/*.png', 'sources/images/**/*.jpg', 'sources/images/**/*.jpeg']
 		,['imagesmin']);

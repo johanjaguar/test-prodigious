@@ -1,0 +1,40 @@
+<div class="widget1" ng-controller="mainController">
+	<figure class="widget1__image-header">
+		<img src="{{profile.headerImage}}" alt="{{profile.name}}" />
+	</figure>
+	<div class="widget1__profile-box">
+		<div class="widget1__image-profile">
+			<img src="{{profile.profileImage}}" alt="{{profile.name}}" />
+		</div>
+
+		<div class="widget1__profile-info">
+			<h3 class="widget1__profile-name">{{profile.name}}</h3>
+			<p class="widget1__profile-description">{{profile.description}}</p>
+		</div>
+	</div>
+	<div class="widget1__icons">
+		<ul>
+			<li class="widget1__li-icon-eye">
+				<span class="widget1__icon-text">{{stats.views}}</span>
+			</li>
+			<li id="btn-comment" class="widget1__li-icon-comment">
+				<span class="widget1__icon-text">{{stats.comment}}</span>
+			</li>
+			<li class="widget1__icon-likes">
+				<span class="widget1__icon-text">{{stats.likes}}</span>
+			</li>
+		</ul>
+	</div>
+	<div class="widget1__box-comments">
+		<div ng-repeat="comment in comments" class="item">
+			<div class="header">
+				<img src="{{comment.profileImage}}" alt="">
+				<div class="info">
+					<a class="name">{{comment.name}}</a>
+					<div class="time"><span>{{comment.time}} </span>ago</div>
+				</div>
+			</div>
+			<p class="text">{{comment.comment}}</p>
+		</div>
+	</div>
+</div>
