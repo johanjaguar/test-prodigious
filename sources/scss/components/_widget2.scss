@@ -1,0 +1,122 @@
+.widget2{
+  width: 370px;
+  overflow-y: auto;
+  margin: 0 auto;
+  //background: $white;
+  @at-root &__row{
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+  @at-root &__tab-menu{
+    width: 100%;
+    float: none;
+  }
+  @at-root &__tab-menu-item {
+    padding: 15px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    color: $white;
+    text-shadow: none;
+    font-family: $fte-openSans--bold;
+    border-radius: 7px 7px 0 0;
+    background: transparent;
+    border: 1px solid $white;
+  }
+  @at-root &--tab-active{
+    background: $white;
+    color: $grey5c;
+  }
+  @at-root &__titulo{
+    background: $white;
+    color: $grey8d;
+    text-shadow: none;
+    padding: 40px 0 20px 0;
+  }
+  @at-root &__chart{
+    text-align: center;
+    background: $white;
+    color: $grey8d;
+    text-shadow: none;
+    padding-bottom: 30px;
+  }
+  @at-root &__chart-values {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: -180px;
+    margin-bottom: 130px;
+    text-align: center;
+    //background: $white;
+    color: $grey5c;
+  }
+  @at-root &__chart-files{
+    color: $orangee9;
+    @include rem(15);
+    font-family: $fte-openSans--bold;
+    text-shadow: none;
+  }
+  @at-root &__chart-gb{
+    @include rem(35);
+    font-family: $fte-openSans--bold;
+    color: $grey8d;
+    text-shadow: none;
+  }
+  @at-root &__percentage-item{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    background: $white;
+    color: $grey8d;
+    text-shadow: none;
+    padding: 20px;
+    box-sizing: border-box;
+    background: $greyf6;
+    border-right: 1px solid $white;
+    &:last-of-type{
+      border-right: none;
+    }
+  }
+  @at-root &__percentage-label{
+    color: $grey8d;
+    text-shadow: none;
+    @include rem(15);
+    font-family: $fte-openSans--bold;
+  }
+  @at-root &__percentage-value{
+    color: $grey8d;
+    text-shadow: none;
+    @include rem(32);
+    font-family: $fte-openSans--bold;
+  }
+  @at-root &__percentage-audio{
+    border-top: 5px solid $orangee9;
+  }
+  @at-root &__percentage-video{
+    border-top: 5px solid $green51;
+  }
+  @at-root &__percentage-photo{
+    border-top: 5px solid $yellowe9;
+  }
+  @at-root &__footer-item{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: $brown77;
+    color: $white;
+    &:hover{
+      background: $brown64;
+      cursor: pointer; 
+    }
+  }
+  @at-root &__footer-item-text{
+    color: $white;
+    text-shadow: none;
+    @include rem(11);
+    font-family: $fte-openSans--bold;
+  }
+}

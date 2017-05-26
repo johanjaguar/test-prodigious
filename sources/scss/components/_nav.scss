@@ -12,6 +12,7 @@
     display: inline;
     float: left;
     padding: 20px 35px;
+    border-bottom: 3px solid $white;
     a{
       color: $grey5c;
       font-family: $fte-openSans--bold;
@@ -25,7 +26,7 @@
         height: 34px;
         color: transparent;
         margin-right: 10px;
-        background-position: -49px -25px; 
+        background-position: -49px -25px;
       }
     }
     &:first-of-type{
@@ -44,7 +45,7 @@
 
     &:hover{
       background: $greyf6;
-      border-bottom: 3px solid green;
+      border-bottom: 3px solid $green51;
     }
   }
 

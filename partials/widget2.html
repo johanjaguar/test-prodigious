@@ -1,5 +1,53 @@
-<div class="jumbotron text-center">
-	<h1>About Page</h1>
+<div class="widget2" ng-controller="mainController">
+  <div class="widget2__row">
+    <div class="widget2__box-tab-menu">
+      <ul class="widget2__tab-menu">
+        <li class="widget2__tab-menu-item widget2--tab-active">Diagram Stats</li>
+        <li class="widget2__tab-menu-item">Month Report</li>
+      </ul>
+    </div>
+  </div>
+  <div class="widget2__row">
+    <h4 class="widget2__titulo">{{content.title}}</h4>
+    <figure class="widget2__chart">
+      <img src="{{content.imageDiagram}}" alt="{{content.title}}" />
+    </figure>
+    <div class="widget2__chart-values">
+      <p class="widget2__chart-files">{{content.dataFiles}} files</p>
+      <p class="widget2__chart-gb">{{content.weightFiles}} Gb</p>
+    </div>
+  </div>
+  <div class="widget2__row">
+    <ul class="widget2__percentage-list">
+      <li class="widget2__percentage-item widget2__percentage-audio">
+        <p class="widget2__percentage-label">audio</p>
+        <p class="widget2__percentage-value">{{content.audio}}</p>
+      </li>
+      <li class="widget2__percentage-item widget2__percentage-video">
+        <p class="widget2__percentage-label">video</p>
+        <p class="widget2__percentage-value">{{content.video}}</p>
+      </li>
+      <li class="widget2__percentage-item widget2__percentage-photo">
+        <p class="widget2__percentage-label">photo</p>
+        <p class="widget2__percentage-value">{{content.photo}}</p>
+      </li>
+    </ul>
+  </div>
+  <div class="widget2__row">
+    <ul class="widget2__footer-menu">
+      <li class="widget2__footer-item widget2__footer-upload">
+        <i></i>
+        <p class="widget2__footer-item-text">UPLOAD FILES</p>
+      </li>
+      <li class="widget2__footer-item widget2__footer-share">
+        <i></i>
+        <p class="widget2__footer-item-text">SHARE LINK</p>
+      </li>
+      <li class="widget2__footer-item widget2__footer-backup">
+        <i></i>
+        <p class="widget2__footer-item-text">BACK UP</p>
+      </li>
+    </ul>
+  </div>
 
-	<p>{{ message }}</p>
 </div>
