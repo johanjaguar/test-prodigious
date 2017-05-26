@@ -7,11 +7,44 @@
     text-align: center;
   }
   @at-root &__list-item {
+    background: $white;
+    border-right: 1px solid $greyf6;
     display: inline;
-    padding: 0 10px;
+    float: left;
+    padding: 20px 35px;
     a{
+      color: $grey5c;
+      font-family: $fte-openSans--bold;
       text-decoration: none;
-      color: $white;
+      text-shadow: none;
+      text-transform: uppercase;
+      &:before{
+        content: "aa ";
+        background: url(/build/images-op/sprites.png);
+        width: 17px;
+        height: 34px;
+        color: transparent;
+        margin-right: 10px;
+        background-position: -49px -25px; 
+      }
+    }
+    &:first-of-type{
+      border-radius: 7px 0 0 7px;
+      a:before{
+        background-position: -51px -50px;
+      }
+    }
+    &:last-of-type{
+      border-radius: 0 7px 7px 0;
+      border-right: none;
+      a:before{
+        background-position: -51px 0;
+      }
+    }
+
+    &:hover{
+      background: $greyf6;
+      border-bottom: 3px solid green;
     }
   }
 
@@ -20,9 +53,8 @@
     text-align: right;
     margin: 25px;
   }
-  @at-root &--list-active {
-    a{
-      color: $greyc;
-    }
-  }
+  /*@at-root &--list-active {
+    background: $greye5;
+    border-bottom: 3px solid green;
+  }*/
 }

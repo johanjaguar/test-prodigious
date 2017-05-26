@@ -1,6 +1,5 @@
 .widget1{
   width: 370px;
-  height: 393px;
   overflow-y: auto;
   margin: 0 auto;
 
@@ -144,7 +143,10 @@
     img{
       float: left;
       border-radius: 50%;
-      padding-right: 10px;
+      margin-right: 10px;
+      border: 3px solid $orangee9;
+      width: 50px;
+      height: 50px;
     }
     &:last-of-type{
       border-bottom: none;
@@ -152,7 +154,8 @@
 
   }
   @at-root &__comment-info{
-    padding-top: 5px
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
   @at-root &__comment-name{
     color: $grey5c;
@@ -170,5 +173,6 @@
       @include rem(14);
       text-shadow: none;
       padding-top: 20px;
+      line-height: 1.4;
     }
 }

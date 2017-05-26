@@ -12,14 +12,14 @@
 	},
 	"comments":[
 		{
-			"profileImage":"/build/images-op/people1.jpeg",
+			"profileImage":"/build/images-op/megaman.jpg",
 			"name":"Alexa Abdalla",
 			"time":"20 minuts ago",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
 		},
 		{
-			"profileImage":"/build/images-op/people2.jpg",
-			"name":"Andres Vargas",
+			"profileImage":"/build/images-op/sigfried.jpg",
+			"name":"Pepito Perez",
 			"time":"20 minuts ago",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
 		}
@@ -49,7 +49,7 @@
 	],
 	"profileUser":{
 		"profileImage":"/build/images-op/widget1-profile.jpg",
-		"name":"Courtney Timmons",
+		"name":"Nikolas Tesla",
 		"followers":15.323
 	},
 	"navsUser":{

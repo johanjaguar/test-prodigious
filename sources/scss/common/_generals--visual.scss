@@ -1,5 +1,6 @@
 body{
-  background-image: url(../images-op/fondoBg.png);
+  background-image: url(/build/images-op/fondoBg.png);
+  //@include gradient( $skincb , $skinbc );
   font-family: $fte-openSans--regular;
   @include rem(16);
 }
