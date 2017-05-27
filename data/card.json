@@ -32,7 +32,10 @@
 		"weightFiles":"47",
 		"audio":55,
 		"video":23,
-		"photo":17
+		"photo":17,
+		"icon1": "build/images-op/icon1.png",
+		"icon2": "build/images-op/icon2.png",
+		"icon3": "build/images-op/icon3.png"
 	},
 	"navs":[
 		{

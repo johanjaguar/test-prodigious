@@ -112,6 +112,9 @@
       background: $brown64;
       cursor: pointer;
     }
+    img{
+      padding-bottom: 5px; 
+    }
   }
   @at-root &__footer-item-text{
     color: $white;
