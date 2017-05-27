@@ -1,7 +1,7 @@
 {
 	"profile":{
-		"headerImage":"/build/images-op/widget1-bg.jpg",
-		"profileImage":"/build/images-op/widget1-profile.jpg",
+		"headerImage":"build/images-op/widget1-bg.jpg",
+		"profileImage":"build/images-op/widget1-profile.jpg",
 		"name":"John Raymons",
 		"description":"Your talent amazes! This is awesome. Excited to see the final product.",
 		"followers": "850"
@@ -13,13 +13,13 @@
 	},
 	"comments":[
 		{
-			"profileImage":"/build/images-op/megaman.jpg",
+			"profileImage":"build/images-op/megaman.jpg",
 			"name":"Alexa Abdalla",
 			"time":"20 minuts ago",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
 		},
 		{
-			"profileImage":"/build/images-op/sigfried.jpg",
+			"profileImage":"build/images-op/sigfried.jpg",
 			"name":"Pepito Perez",
 			"time":"20 minuts ago",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
@@ -27,7 +27,7 @@
 	],
 	"content":{
 		"title":"Data Transfer",
-		"imageDiagram":"/build/images-op/diagram1.png",
+		"imageDiagram":"build/images-op/diagram1.png",
 		"dataFiles":"2,435",
 		"weightFiles":"47",
 		"audio":55,
@@ -36,7 +36,7 @@
 	},
 	"navs":[
 		{
-			"iconImage":"/build/images-op/icon1.png",
+			"iconImage":"build/images-op/icon1.png",
 			"name":"upload files"
 		},
 		{
@@ -49,7 +49,7 @@
 		}
 	],
 	"profileUser":{
-		"profileImage":"/build/images-op/widget1-profile.jpg",
+		"profileImage":"build/images-op/widget1-profile.jpg",
 		"name":"Nikolas Tesla",
 		"followers":15.323
 	},

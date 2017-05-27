@@ -1,8 +1,7 @@
 // create the module and name it scotchApp
 testProdigious.controller('mainController', function( $scope , $http ) {
-  $http.get("/data/card.json")
+  $http.get("data/card.json")
 	 .success(function(data){
-  		console.log(data);
   		$scope.profile = data.profile;
   		$scope.stats= data.stats;
   		$scope.comments = data.comments;
@@ -15,6 +14,5 @@ testProdigious.controller('mainController', function( $scope , $http ) {
 
   	});
   $scope.save = function( formData ){
-    console.log( formData );
   }
 });

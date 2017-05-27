@@ -12,8 +12,8 @@ $browser-context: 16; // Default
 @mixin fontface( $font-name ){
   @font-face {
     font-family: $font-name;
-    $url: '/fonts/' + $font-name + '.';
-    src: url( $url + 'eot' );
+    $url: '../../fonts/' + $font-name + '.';
+    src: url( $url + 'eot' ); 
     src: url( $url + 'eot?#iefix' ) format( 'embedded-opentype' ),
          url( $url + 'woff' ) format( 'woff' ),
          url( $url + 'ttf') format( 'truetype' ),
