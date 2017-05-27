@@ -3,7 +3,8 @@
 		"headerImage":"/build/images-op/widget1-bg.jpg",
 		"profileImage":"/build/images-op/widget1-profile.jpg",
 		"name":"John Raymons",
-		"description":"Your talent amazes! This is awesome. Excited to see the final product."
+		"description":"Your talent amazes! This is awesome. Excited to see the final product.",
+		"followers": "850"
 	},
 	"stats":{
 		"views":172,

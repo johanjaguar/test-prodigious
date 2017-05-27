@@ -92,10 +92,10 @@
     font-family: $fte-openSans--bold;
   }
   @at-root &__percentage-audio{
-    border-top: 5px solid $orangee9;
+    border-top: 5px solid $green51;
   }
   @at-root &__percentage-video{
-    border-top: 5px solid $green51;
+    border-top: 5px solid $orangee9;
   }
   @at-root &__percentage-photo{
     border-top: 5px solid $yellowe9;
@@ -110,7 +110,7 @@
     color: $white;
     &:hover{
       background: $brown64;
-      cursor: pointer; 
+      cursor: pointer;
     }
   }
   @at-root &__footer-item-text{

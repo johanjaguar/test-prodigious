@@ -1,5 +1,25 @@
-<div class="jumbotron text-center">
-	<h1>Contact Page</h1>
-
-	<p>{{ message }}</p>
+<div class="widget3" ng-controller="mainController">
+  <div class="widget3__header">
+		<img src="{{profile.profileImage}}" alt="{{profile.name}}"/>
+		<div class="widget3__twitter-box">
+			<p class="widget3__name">{{profile.name}}</p>
+			<p class="widget3__followers">{{profile.followers}} followers</p>
+		</div>
+	</div>
+	<div class="widget3__vertical-menu">
+		<ul>
+			<li class="widget3__item">
+				<a href="#">Edit user</a>
+			</li>
+			<li class="widget3__item">
+				<a href="#">Web statistics</a>
+			</li>
+			<li class="widget3__item">
+				<a href="#">Upload settings</a>
+			</li>
+			<li class="widget3__item">
+				<a href="#">Events</a>
+			</li>
+		</ul>
+	</div>
 </div>
