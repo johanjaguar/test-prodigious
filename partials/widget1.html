@@ -27,7 +27,7 @@
 	</div>
 	<div class="widget1__box-comments" ng-show="showDiv">
 		<div ng-repeat="comment in comments" class="widget1__comment-item">
-			<img src="build/images-op/sigfried.jpg" alt="">
+			<img src="{{comment.profileImage}}" alt="">
 			<div class="widget1__comment-info">
 				<a class="widget1__comment-name">{{comment.name}}</a>
 				<div class="widget1__comment-time"><span>{{comment.time}}  </span>{{commentslabel.minago}}</div>
