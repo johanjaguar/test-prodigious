@@ -104,7 +104,7 @@
     width: 33.33%;
     float: left;
     text-align: center;
-    padding: 20px;
+    padding: 20px 5px; 
     box-sizing: border-box;
     background: $brown77;
     color: $white;
@@ -113,7 +113,7 @@
       cursor: pointer;
     }
     img{
-      padding-bottom: 5px; 
+      padding-bottom: 5px;
     }
   }
   @at-root &__footer-item-text{

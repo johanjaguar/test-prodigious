@@ -1,4 +1,4 @@
-<div class="widget1" ng-controller="mainController">
+<div class="widget1">
 	<figure class="widget1__image-header">
 		<img src="{{profile.headerImage}}" alt="{{profile.name}}" />
 	</figure>
@@ -17,7 +17,7 @@
 			<li class="widget1__li-icon-eye">
 				<span class="widget1__icon-text">{{stats.views}}</span>
 			</li>
-			<li id="btn-comment" class="widget1__li-icon-comment" ng-click="showDiv = !showDiv">  
+			<li id="btn-comment" class="widget1__li-icon-comment" ng-click="showDiv = !showDiv">
 				<span class="widget1__icon-text">{{stats.comment}}</span>
 			</li>
 			<li class="widget1__li-icon-likes">
@@ -27,10 +27,10 @@
 	</div>
 	<div class="widget1__box-comments" ng-show="showDiv">
 		<div ng-repeat="comment in comments" class="widget1__comment-item">
-			<img src="{{comment.profileImage}}" alt="">
+			<img src="build/images-op/sigfried.jpg" alt="">
 			<div class="widget1__comment-info">
 				<a class="widget1__comment-name">{{comment.name}}</a>
-				<div class="widget1__comment-time"><span>{{comment.time}} </span>ago</div>
+				<div class="widget1__comment-time"><span>{{comment.time}}  </span>{{commentslabel.minago}}</div>
 			</div>
 			<p class="widget1__comment-text">{{comment.comment}}</p>
 		</div>

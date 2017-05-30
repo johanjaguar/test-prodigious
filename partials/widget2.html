@@ -1,9 +1,9 @@
-<div class="widget2" ng-controller="mainController">
+<div class="widget2">
   <div class="widget2__row">
     <div class="widget2__box-tab-menu">
       <ul class="widget2__tab-menu">
-        <li class="widget2__tab-menu-item widget2--tab-active">Diagram Stats</li>
-        <li class="widget2__tab-menu-item">Month Report</li>
+        <li class="widget2__tab-menu-item widget2--tab-active">{{content.tab1}}</li>
+        <li class="widget2__tab-menu-item">{{content.tab2}}</li>
       </ul>
     </div>
   </div>
@@ -13,22 +13,22 @@
       <img src="{{content.imageDiagram}}" alt="{{content.title}}" />
     </figure>
     <div class="widget2__chart-values">
-      <p class="widget2__chart-files">{{content.dataFiles}} files</p>
+      <p class="widget2__chart-files">{{content.dataFiles}} {{content.files}}</p>
       <p class="widget2__chart-gb">{{content.weightFiles}} Gb</p>
     </div>
   </div>
   <div class="widget2__row">
     <ul class="widget2__percentage-list">
       <li class="widget2__percentage-item widget2__percentage-audio">
-        <p class="widget2__percentage-label">audio</p>
+        <p class="widget2__percentage-label">{{content.audiolabel}}</p>
         <p class="widget2__percentage-value">{{content.audio}}</p>
       </li>
       <li class="widget2__percentage-item widget2__percentage-video">
-        <p class="widget2__percentage-label">video</p>
+        <p class="widget2__percentage-label">{{content.videolabel}}</p>
         <p class="widget2__percentage-value">{{content.video}}</p>
       </li>
       <li class="widget2__percentage-item widget2__percentage-photo">
-        <p class="widget2__percentage-label">photo</p>
+        <p class="widget2__percentage-label">{{content.photolabel}}</p>
         <p class="widget2__percentage-value">{{content.photo}}</p>
       </li>
     </ul>
@@ -37,15 +37,15 @@
     <ul class="widget2__footer-menu">
       <li class="widget2__footer-item widget2__footer-upload">
         <img src="{{content.icon1}}" alt="Upload" />
-        <p class="widget2__footer-item-text">UPLOAD FILES</p>
+        <p class="widget2__footer-item-text">{{content.upload}}</p>
       </li>
       <li class="widget2__footer-item widget2__footer-share">
         <img src="{{content.icon2}}" alt="Share Link" />
-        <p class="widget2__footer-item-text">SHARE LINK</p>
+        <p class="widget2__footer-item-text">{{content.share}}</p>
       </li>
       <li class="widget2__footer-item widget2__footer-backup">
         <img src="{{content.icon3}}" alt="Back up" />
-        <p class="widget2__footer-item-text">BACK UP</p>
+        <p class="widget2__footer-item-text">{{content.backup}}</p>
       </li>
     </ul>
   </div>
