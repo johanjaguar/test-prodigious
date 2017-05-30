@@ -22,3 +22,23 @@ h1{
 h2{
   @include rem(20);
 }
+.caja-cambio-idioma__button{
+  background: $white;
+  display: inline;
+  float: left;
+  padding: 10px 10px;
+  font-family: $fte-openSans--bold;
+  text-transform: uppercase;
+  color: $grey5c;
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  @include rem(13);
+  &:hover{
+    background: $greyf6;
+    border-bottom: 3px solid $green51;
+    cursor: pointer;   
+  }
+}
