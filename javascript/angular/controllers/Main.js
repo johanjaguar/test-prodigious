@@ -32,6 +32,7 @@ testProdigious.controller('mainController', function( $scope , $http ) {
           $scope.navsUser= data.navsUser.spanish;
           $scope.labels= data.labels.spanish;
         }
+
       };
 
   	})

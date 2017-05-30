@@ -5,7 +5,7 @@ testProdigious.config(function($routeProvider) {
     // route for the home page
     .when('/', {
       templateUrl : 'partials/widget1.html',
-      controller  : 'mainController'
+      controller  : 'widget1Controller'
     })
 
     // route for the about page
