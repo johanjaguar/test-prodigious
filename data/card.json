@@ -1,41 +1,92 @@
 {
 	"profile":{
-		"headerImage":"build/images-op/widget1-bg.jpg",
-		"profileImage":"build/images-op/widget1-profile.jpg",
-		"name":"John Raymons",
-		"description":"Your talent amazes! This is awesome. Excited to see the final product.",
-		"followers": "850"
+		"english":{
+			"headerImage":"build/images-op/widget1-bg.jpg",
+			"profileImage":"build/images-op/widget1-profile.jpg",
+			"followers": "850",
+			"followerslabel": "followers",
+			"name":"John Raymons",
+			"description":"Your talent amazes! This is awesome. Excited to see the final product."
+		},
+		"spanish":{
+			"headerImage":"build/images-op/widget1-bg.jpg",
+			"profileImage":"build/images-op/widget1-profile.jpg",
+			"followers": "850",
+			"followerslabel": "seguidores",
+			"name":"John Ramones",
+			"description":"¡Tu talento maravilla! Esto es asombroso. Estoy emocionado por ver el producto final."
+		}
 	},
 	"stats":{
 		"views":172,
 		"comment":30,
 		"likes":210
 	},
+	"commentslabel":{
+		"english":{
+			"minago": "minutes ago"
+		},
+		"spanish":{
+			"minago": "minutos antes"
+		}
+	},
 	"comments":[
 		{
 			"profileImage":"build/images-op/megaman.jpg",
 			"name":"Alexa Abdalla",
-			"time":"20 minuts ago",
+			"time":"20",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
 		},
 		{
 			"profileImage":"build/images-op/sigfried.jpg",
 			"name":"Pepito Perez",
-			"time":"20 minuts ago",
+			"time":"20",
 			"comment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus laudantium consequuntur rerum asperiores accusantium at facilis hic ullam id natus voluptatum ad dolore, sequi laboriosam minima facere sit harum."
 		}
 	],
 	"content":{
-		"title":"Data Transfer",
-		"imageDiagram":"build/images-op/diagram1.png",
-		"dataFiles":"2,435",
-		"weightFiles":"47",
-		"audio":55,
-		"video":23,
-		"photo":17,
-		"icon1": "build/images-op/icon1.png",
-		"icon2": "build/images-op/icon2.png",
-		"icon3": "build/images-op/icon3.png"
+		"english":{
+			"title":"Data Transfer",
+			"imageDiagram":"build/images-op/diagram1.png",
+			"dataFiles":"2,435",
+			"weightFiles":"47",
+			"audio":55,
+			"video":23,
+			"photo":17,
+			"icon1": "build/images-op/icon1.png",
+			"icon2": "build/images-op/icon2.png",
+			"icon3": "build/images-op/icon3.png",
+			"tab1": "Diagram Stats",
+			"tab2": "Month Report",
+			"upload": "UPLOAD FILES",
+			"share": "SHARE LINKS",
+			"backup": "BACK UP",
+			"audiolabel": "audio",
+			"videolabel": "video",
+			"photolabel": "photo",
+			"files": "files"
+		},
+		"spanish":{
+			"title":"Transferencia de Datos",
+			"imageDiagram":"build/images-op/diagram1.png",
+			"dataFiles":"2,435",
+			"weightFiles":"47",
+			"audio":55,
+			"video":23,
+			"photo":17,
+			"icon1": "build/images-op/icon1.png",
+			"icon2": "build/images-op/icon2.png",
+			"icon3": "build/images-op/icon3.png",
+			"tab1": "Estadisticas",
+			"tab2": "Reporte Mensual",
+			"upload": "SUBIR ARCHIVOS",
+			"share": "COMPARTIR",
+			"backup": "RESPALDAR",
+			"audiolabel": "audio",
+			"videolabel": "video",
+			"photolabel": "foto",
+			"files": "archivos"
+		}
 	},
 	"navs":[
 		{
@@ -57,9 +108,36 @@
 		"followers":15.323
 	},
 	"navsUser":{
-		"edit":"Edit user",
-		"sta":"Web statistics",
-		"up":"Upload settings",
-		"events":"Events"
+		"english":{
+			"edit":"Edit user",
+			"sta":"Web statistics",
+			"up":"Upload settings",
+			"events":"Events"
+		},
+		"spanish":{
+			"edit":"Editar usuario",
+			"sta":"Estatisticas web",
+			"up":"Subir ajustes",
+			"events":"Eventos"
+		}
+
+	},
+	"labels":{
+		"english":{
+			"title": "Prodigious Developer Test",
+			"subtitle": "By Johan Vargas Sanchez",
+			"menu1": "Widget 1",
+			"menu2": "Widget 2",
+			"menu3": "Widget 3",
+			"language": "Change Language"
+		},
+		"spanish":{
+			"title": "Prueba de desarrollo de Prodigious",
+			"subtitle": "Por Johan Vargas Sanchez",
+			"menu1": "Modulo 1",
+			"menu2": "Modulo 2",
+			"menu3": "Modulo 3",
+			"language": "Cambiar Idioma"
+		}
 	}
 }

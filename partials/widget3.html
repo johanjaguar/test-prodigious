@@ -1,24 +1,24 @@
-<div class="widget3" ng-controller="mainController">
+<div class="widget3">
   <div class="widget3__header">
 		<img src="{{profile.profileImage}}" alt="{{profile.name}}"/>
 		<div class="widget3__twitter-box">
 			<p class="widget3__name">{{profile.name}}</p>
-			<p class="widget3__followers">{{profile.followers}} followers</p>
+			<p class="widget3__followers">{{profile.followers}} {{profile.followerslabel}}</p>
 		</div>
 	</div>
 	<div class="widget3__vertical-menu">
 		<ul>
 			<li class="widget3__item">
-				<a href="#">Edit user</a>
+				<a href="#">{{navsUser.edit}}</a>
 			</li>
 			<li class="widget3__item">
-				<a href="#">Web statistics</a>
+				<a href="#">{{navsUser.sta}}</a>
 			</li>
 			<li class="widget3__item">
-				<a href="#">Upload settings</a>
+				<a href="#">{{navsUser.up}}</a>
 			</li>
 			<li class="widget3__item">
-				<a href="#">Events</a>
+				<a href="#">{{navsUser.events}}</a>
 			</li>
 		</ul>
 	</div>

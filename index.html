@@ -15,9 +15,11 @@
 </head>
 
 <!-- define angular controller -->
-<body>
-  <header class="header" ng-include=" 'partials/header.html' "></header>
-
+<body ng-controller = "mainController" ng-class="{'english': isEnglish}">
+  <header class="header" ng-include=" 'partials/header.html' " ></header>
+  <div class="caja-cambio-idioma">
+      <button class="caja-cambio-idioma__button"  ng-click="activeButton()" type="button">{{labels.language}}</button>
+  </div>
 
   <div id="main" class="container">
 
